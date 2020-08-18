@@ -2,9 +2,6 @@
 #  Fastfile
 #  ocean-watch-ios
 #
-#  Created by Illia Kucheriavyi on 27/05/2020.
-#  Copyright © 2020 MongoDB. All rights reserved.
-#
 
 # This file contains the fastlane.tools configuration
 # You can find the documentation at https://docs.fastlane.tools
@@ -23,6 +20,10 @@
 
 default_platform(:ios)
 
+before_all do
+      xcversion(version: "11.5")
+    end
+
 platform :ios do
   desc "Base build check" # this action skips all signing and exporting, only do the base build check (compillability)
   lane :build do
@@ -32,4 +33,12 @@ platform :ios do
         skip_package_ipa: true,
         skip_codesigning: true)
   end
+
+  desc 'Runs the tests in O_Fish'
+      lane :test do
+        scan(scheme: "o-fish-ios")
+  end
+
+
+
 end

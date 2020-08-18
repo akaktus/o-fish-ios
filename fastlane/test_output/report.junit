@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuites name='O-FISHTests.xctest' tests='75' failures='0'>
+  <testsuite name='O_FISHTests.ActivityViewModelTests' tests='2' failures='0'>
+    <testcase classname='O_FISHTests.ActivityViewModelTests' name='testSaveActitivyNil' time='0.007'/>
+    <testcase classname='O_FISHTests.ActivityViewModelTests' name='testSaveActivityNotNil' time='0.002'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.AnnotatedNoteViewModelTests' tests='5' failures='0'>
+    <testcase classname='O_FISHTests.AnnotatedNoteViewModelTests' name='testInitAnnotatedNoteModelFromNote' time='0.001'/>
+    <testcase classname='O_FISHTests.AnnotatedNoteViewModelTests' name='testIsEmptyFalse' time='0.001'/>
+    <testcase classname='O_FISHTests.AnnotatedNoteViewModelTests' name='testIsEmptyTrue' time='0.000'/>
+    <testcase classname='O_FISHTests.AnnotatedNoteViewModelTests' name='testSaveAnnotatedNoteNil' time='0.001'/>
+    <testcase classname='O_FISHTests.AnnotatedNoteViewModelTests' name='testSaveAnnotatedNoteNotNil' time='0.001'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.AttachmentsViewModelTests' tests='2' failures='0'>
+    <testcase classname='O_FISHTests.AttachmentsViewModelTests' name='testSaveAttachmentsNil' time='0.000'/>
+    <testcase classname='O_FISHTests.AttachmentsViewModelTests' name='testSaveAttachmentsNotNil' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.BoatViewModelTests' tests='4' failures='0'>
+    <testcase classname='O_FISHTests.BoatViewModelTests' name='testIsEmptyFalse' time='0.001'/>
+    <testcase classname='O_FISHTests.BoatViewModelTests' name='testIsEmptyTrue' time='0.001'/>
+    <testcase classname='O_FISHTests.BoatViewModelTests' name='testSaveVesselNil' time='0.008'/>
+    <testcase classname='O_FISHTests.BoatViewModelTests' name='testSaveVesselNotNil' time='0.001'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.CatchViewModelTests' tests='10' failures='0'>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testInitWithCatch' time='0.001'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testIsComplete' time='0.001'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testIsEmptyFalse' time='0.000'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testIsEmptyTrue' time='0.002'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testIsNotComplete' time='0.001'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testQuantityTypeString' time='0.001'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testSaveCatchNotNill' time='0.001'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testSaveVesselNil' time='0.001'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testWeightStringIsEmpty' time='0.000'/>
+    <testcase classname='O_FISHTests.CatchViewModelTests' name='testWeightStringNotEmpty' time='0.001'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.CrewMemberViewModelTests' tests='8' failures='0'>
+    <testcase classname='O_FISHTests.CrewMemberViewModelTests' name='testInitWithCrewMember' time='0.001'/>
+    <testcase classname='O_FISHTests.CrewMemberViewModelTests' name='testInitWithCrewMemberModel' time='0.000'/>
+    <testcase classname='O_FISHTests.CrewMemberViewModelTests' name='testIsComplete' time='0.000'/>
+    <testcase classname='O_FISHTests.CrewMemberViewModelTests' name='testIsEmptyFalse' time='0.000'/>
+    <testcase classname='O_FISHTests.CrewMemberViewModelTests' name='testIsEmptyTrue' time='0.000'/>
+    <testcase classname='O_FISHTests.CrewMemberViewModelTests' name='testIsNotComplete' time='0.000'/>
+    <testcase classname='O_FISHTests.CrewMemberViewModelTests' name='testSaveCrewNil' time='0.000'/>
+    <testcase classname='O_FISHTests.CrewMemberViewModelTests' name='testSaveCrewNotNil' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.DeliveryViewModelTests' tests='4' failures='0'>
+    <testcase classname='O_FISHTests.DeliveryViewModelTests' name='testIsEmptyFalse' time='0.000'/>
+    <testcase classname='O_FISHTests.DeliveryViewModelTests' name='testIsEmptyTrue' time='0.000'/>
+    <testcase classname='O_FISHTests.DeliveryViewModelTests' name='testSaveDeliveryNil' time='0.000'/>
+    <testcase classname='O_FISHTests.DeliveryViewModelTests' name='testSaveDeliveryNotNil' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.EMSViewModelTests' tests='6' failures='0'>
+    <testcase classname='O_FISHTests.EMSViewModelTests' name='testIsComplete' time='0.002'/>
+    <testcase classname='O_FISHTests.EMSViewModelTests' name='testIsEmptyFalse' time='0.000'/>
+    <testcase classname='O_FISHTests.EMSViewModelTests' name='testIsEmptyTrue' time='0.001'/>
+    <testcase classname='O_FISHTests.EMSViewModelTests' name='testIsNotComplete' time='0.001'/>
+    <testcase classname='O_FISHTests.EMSViewModelTests' name='testSaveEMSNil' time='0.001'/>
+    <testcase classname='O_FISHTests.EMSViewModelTests' name='testSaveEMSNotNil' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.FisheryViewModelTests' tests='2' failures='0'>
+    <testcase classname='O_FISHTests.FisheryViewModelTests' name='testSaveFisheryNil' time='0.001'/>
+    <testcase classname='O_FISHTests.FisheryViewModelTests' name='testSaveFisheryNotNil' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.GearTypeViewModelTests' tests='2' failures='0'>
+    <testcase classname='O_FISHTests.GearTypeViewModelTests' name='testSaveFisheryNil' time='0.001'/>
+    <testcase classname='O_FISHTests.GearTypeViewModelTests' name='testSaveGearTypeNotNil' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.InspectionViewModelTests' tests='3' failures='0'>
+    <testcase classname='O_FISHTests.InspectionViewModelTests' name='testInitFromInspection' time='0.004'/>
+    <testcase classname='O_FISHTests.InspectionViewModelTests' name='testSaveInspectionNil' time='0.004'/>
+    <testcase classname='O_FISHTests.InspectionViewModelTests' name='testSaveInspectionNotNil' time='0.002'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.LocationViewModelTests' tests='4' failures='0'>
+    <testcase classname='O_FISHTests.LocationViewModelTests' name='testInitWithEmptyLocationList' time='0.002'/>
+    <testcase classname='O_FISHTests.LocationViewModelTests' name='testInitWithLocationAsCoordinate' time='0.001'/>
+    <testcase classname='O_FISHTests.LocationViewModelTests' name='testInitWithLocationAsListFail' time='0.001'/>
+    <testcase classname='O_FISHTests.LocationViewModelTests' name='testInitWithLocationAsListSucces' time='0.001'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.NameViewModelTests' tests='2' failures='0'>
+    <testcase classname='O_FISHTests.NameViewModelTests' name='testFullName' time='0.001'/>
+    <testcase classname='O_FISHTests.NameViewModelTests' name='testSave' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.OffenceViewModelTests' tests='4' failures='0'>
+    <testcase classname='O_FISHTests.OffenceViewModelTests' name='testOffenceIsEmptyFalse' time='0.000'/>
+    <testcase classname='O_FISHTests.OffenceViewModelTests' name='testOffenceIsEmptyTrue' time='0.000'/>
+    <testcase classname='O_FISHTests.OffenceViewModelTests' name='testSaveWithOffence' time='0.000'/>
+    <testcase classname='O_FISHTests.OffenceViewModelTests' name='testWithoutOffence' time='0.003'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.SafetyLevelViewModelTests' tests='2' failures='0'>
+    <testcase classname='O_FISHTests.SafetyLevelViewModelTests' name='testSaveSafetyLeveleNotNil' time='0.001'/>
+    <testcase classname='O_FISHTests.SafetyLevelViewModelTests' name='testSaveSafetyLevelNil' time='0.002'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.SampleUserViewModelTest' tests='3' failures='0'>
+    <testcase classname='O_FISHTests.SampleUserViewModelTest' name='testDutyChangeViewModelSample' time='0.001'/>
+    <testcase classname='O_FISHTests.SampleUserViewModelTest' name='testNameViewModelSample' time='0.000'/>
+    <testcase classname='O_FISHTests.SampleUserViewModelTest' name='testUserViewModelSample' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.SeizuresViewModelTests' tests='2' failures='0'>
+    <testcase classname='O_FISHTests.SeizuresViewModelTests' name='testSaveSeizuresNil' time='0.000'/>
+    <testcase classname='O_FISHTests.SeizuresViewModelTests' name='testSaveSeizuresNotNil' time='0.000'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.SummaryViewModelTests' tests='2' failures='0'>
+    <testcase classname='O_FISHTests.SummaryViewModelTests' name='testSaveSummaryNil' time='0.001'/>
+    <testcase classname='O_FISHTests.SummaryViewModelTests' name='testSaveSummaryNotNil' time='0.001'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.UserViewModelTests' tests='1' failures='0'>
+    <testcase classname='O_FISHTests.UserViewModelTests' name='testSave' time='0.001'/>
+  </testsuite>
+  <testsuite name='O_FISHTests.ViolationViewModelTests' tests='7' failures='0'>
+    <testcase classname='O_FISHTests.ViolationViewModelTests' name='testFullViolationDescription' time='0.000'/>
+    <testcase classname='O_FISHTests.ViolationViewModelTests' name='testFullViolationDescriptionEmpty' time='0.000'/>
+    <testcase classname='O_FISHTests.ViolationViewModelTests' name='testInitViolationModelFromViolation' time='0.001'/>
+    <testcase classname='O_FISHTests.ViolationViewModelTests' name='testIsEmptyFalse' time='0.001'/>
+    <testcase classname='O_FISHTests.ViolationViewModelTests' name='testIsEmptyTrue' time='0.001'/>
+    <testcase classname='O_FISHTests.ViolationViewModelTests' name='testSaveViolationNil' time='0.001'/>
+    <testcase classname='O_FISHTests.ViolationViewModelTests' name='testSaveViolationNotNil' time='0.002'/>
+  </testsuite>
+</testsuites>
